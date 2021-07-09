@@ -2,17 +2,18 @@
 
 body {
     background-color: rgb(209, 209, 255);
-    padding-top: 100px;
+    padding-top: 20px;
+    text-align: center;
 }
 
 main {
     background-color: white;
-    text-align: center;
-    height: 500px;
+    height: 720px;
     max-width: 700px;
     margin: auto;
     border-radius: 30px;
     border: 1px solid black;
+    padding: 10px;
 }
 
 h1 {
@@ -24,3 +25,17 @@ button {
     height: 200px;
     font-size: 2.7em;
 }
+
+#contador {
+    text-align: right;
+    margin-right: 20%;
+    margin-top: 15px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 1.6em;
+}
+
+#fim {
+    text-align: right;
+    margin-top: 5px;
+}
+
